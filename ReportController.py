@@ -151,4 +151,3 @@ class ReportController(NSObject):
         self.endDate = Timings.combineDateWithTime(nsDateToDatetime(self.dpkrTo.dateValue()) + 
                                                    datetime.timedelta(days=1))
         self.generateChart()
-    
